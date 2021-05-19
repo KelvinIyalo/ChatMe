@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+<group android:enabled="true"/>
+
+    <item
+            android:id="@+id/sign_out"
+            android:title="SIGN OUT"
+            app:showAsAction="ifRoom"
+    android:icon="@drawable/exit_icon"/>
+    <item
+            android:id="@+id/searcht"
+            android:title="SEARCH"
+            app:showAsAction="ifRoom|collapseActionView"
+            android:icon="@drawable/search_icon"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"/>
+<item
+    android:title="@string/New_group"
+    android:id="@+id/new_group_id"/>
+    <item
+            android:title="@string/New_broadcast"
+            android:id="@+id/new_broadcast_id"/>
+    <item
+            android:title="@string/Clone_web"
+            android:id="@+id/clone_web_id"/>
+    <item
+            android:title="@string/Starred_Message"
+            android:id="@+id/starred_message_id"/>
+    <item
+            android:title="@string/Settings"
+            android:id="@+id/settings_id"/>
+
+
+
+</menu>

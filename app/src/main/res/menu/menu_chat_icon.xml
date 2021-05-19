@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+<group android:enabled="true"/>
+
+    <item
+            android:id="@+id/video_call"
+            android:title="Video Call"
+            app:showAsAction="ifRoom"
+    android:icon="@drawable/ic_videocam"/>
+    <item
+            android:id="@+id/audio_call"
+            android:title="Audio Call"
+            app:showAsAction="ifRoom"
+            android:icon="@drawable/ic_audio_call" />
+    <item
+        android:title="View Contact"
+        android:id="@+id/view_contacts"/>
+    <item
+        android:title="Media, links, and docs"
+        android:id="@+id/media"/>
+    <item
+            android:title="Search"
+            android:id="@+id/search"/>
+    <item
+            android:title="Mute notification"
+            android:id="@+id/mute_notification"/>
+    <item
+            android:title="Wallpaper"
+            android:id="@+id/wallpaper"/>
+    <item
+            android:title="More"
+            android:id="@+id/more"
+        android:icon="@drawable/ic_chevron_right_black_24dp">
+
+        <item
+            android:title="ute notification"
+            android:id="@+id/mut_notification"/>
+        <item
+            android:title="allpaper"
+            android:id="@+id/allpaper"/>
+    </item>
+
+
+
+</menu>

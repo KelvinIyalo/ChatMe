@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ChatMe</string>
+    <string name="title_activity_meesage_body1">MeesageBody1Activity</string>
+    <string name="New_group">New Group</string>
+    <string name="New_broadcast">New Broadcast</string>
+    <string name="Clone_web">Chat Web</string>
+    <string name="Starred_Message">Starred Messages</string>
+    <string name="Settings">Settings</string>
+</resources>
